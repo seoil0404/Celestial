@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 450d6a223014fe5479f60b10ceb62a73
+timeCreated: 1470202919
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70164
+  packageName: Low Poly Rocks Pack
+  packageVersion: 1.3.7
+  assetPath: Assets/Assets/LMHPOLY/Low Poly Nature Bundle/Rocks/Bonus Assets/Scripts/LowPolyRocks_FireLightControl.cs
+  uploadId: 714587
