@@ -104,7 +104,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_6F59A5A1: {r: 114.07579, g: 114.07579, b: 114.07579, a: 1}
+    - Color_6F59A5A1: {r: 766.9961, g: 766.9961, b: 766.9961, a: 1}
     - Color_F5834745: {r: 1, g: 0, b: 0, a: 0}
     - Vector2_62981E29: {r: 0.43, g: 0, b: 0, a: 0}
     - Vector2_CBB4F399: {r: 0.25, g: 0, b: 0, a: 0}
