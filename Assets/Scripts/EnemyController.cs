@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
@@ -15,6 +16,8 @@ public class EnemyController : MonoBehaviour
     private void Awake()
     {
         slider.value = 1;
+
+        Cursor.visible = false;
 
         StartCoroutine(AttackByDelay());
     }
@@ -64,6 +67,14 @@ public class EnemyController : MonoBehaviour
     {
         Debug.Log("Hurt");
         health -= 10;
+
+        if (health < 0)
+        {
+            Cursor.visible = true;
+            SceneManager.LoadScene("StartScene");
+            return;
+        }
         slider.value = health / 100;
+        
     }
 }
